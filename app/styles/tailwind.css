@@ -6,4 +6,16 @@
   .footer-link {
     @apply cursor-pointer underline;
   }
+
+  .heading-lg {
+    @apply font-fraunces text-[5rem] font-semibold leading-[5rem];
+  }
+
+  .heading-md {
+    @apply font-fraunces text-[3.5rem] font-semibold leading-[4rem];
+  }
+
+  .heading-sm {
+    @apply font-fraunces text-[2rem] font-semibold leading-10;
+  }
 }

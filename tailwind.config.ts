@@ -12,8 +12,8 @@ export default {
       },
     },
     fontFamily: {
-      'open-sans': ['Open Sans', 'sans-serif'],
-      poppins: ['Poppins', 'sans-serif'],
+      fraunces: ['Fraunces144', 'sans-serif'],
+      manrope: ['Manrope', 'sans-serif'],
     },
   },
   plugins: [],

@@ -5,21 +5,13 @@ import { Links, LiveReload, Meta, Outlet, Scripts, ScrollRestoration } from '@re
 import stylesheet from './styles/tailwind.css'
 import Footer from './components/Footer'
 import favicon from './assets/images/favicon-32x32.png'
+import fonts from './styles/font.css'
 
 export const links: LinksFunction = () => [
   ...(cssBundleHref ? [{ rel: 'stylesheet', href: cssBundleHref }] : []),
   { rel: 'stylesheet', href: stylesheet },
   { rel: 'icon', href: favicon, type: 'image/png' },
-  { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
-  {
-    rel: 'preconnect',
-    href: 'https://fonts.gstatic.com',
-    crossOrigin: 'anonymous',
-  },
-  {
-    rel: 'stylesheet',
-    href: 'https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap',
-  },
+  { rel: 'stylesheet', href: fonts },
 ]
 
 export default function App() {
@@ -31,7 +23,7 @@ export default function App() {
         <Meta />
         <Links />
       </head>
-      <body className="flex min-h-screen flex-col items-center justify-center font-open-sans">
+      <body className="font-manrope flex min-h-screen flex-col items-center justify-center">
         <Outlet />
         <Footer className="m-4 mt-auto" />
         <ScrollRestoration />
