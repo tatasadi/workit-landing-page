@@ -1,18 +1,20 @@
-import type { Config } from "tailwindcss"
+import type { Config } from 'tailwindcss'
 
 export default {
-  content: ["./app/**/*.{js,jsx,ts,tsx}"],
+  content: ['./app/**/*.{js,jsx,ts,tsx}'],
   theme: {
     extend: {
       colors: {
-        violet: "hsl(257, 40%, 49%)",
-        "soft-magenta": "hsl(300, 69%, 71%)"
-      }
+        dark: 'hsl(273, 85%, 13%)',
+        primary: 'hsl(150, 100%, 63%)',
+        gray: 'hsl(271, 12%, 34%)',
+        light: 'hsl(276, 100%, 99%)',
+      },
     },
-    fontFamily:{
+    fontFamily: {
       'open-sans': ['Open Sans', 'sans-serif'],
-      poppins: ['Poppins', 'sans-serif']
-    }
+      poppins: ['Poppins', 'sans-serif'],
+    },
   },
   plugins: [],
 } satisfies Config

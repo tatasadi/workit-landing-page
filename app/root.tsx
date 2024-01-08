@@ -2,12 +2,14 @@ import { cssBundleHref } from '@remix-run/css-bundle'
 import type { LinksFunction } from '@remix-run/node'
 import { Links, LiveReload, Meta, Outlet, Scripts, ScrollRestoration } from '@remix-run/react'
 
-import stylesheet from '~/tailwind.css'
+import stylesheet from './styles/tailwind.css'
 import Footer from './components/Footer'
+import favicon from './assets/images/favicon-32x32.png'
 
 export const links: LinksFunction = () => [
   ...(cssBundleHref ? [{ rel: 'stylesheet', href: cssBundleHref }] : []),
   { rel: 'stylesheet', href: stylesheet },
+  { rel: 'icon', href: favicon, type: 'image/png' },
   { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
   {
     rel: 'preconnect',

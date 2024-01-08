@@ -1,10 +1,11 @@
-# Four card feature section
+# Workit landing page
 
-This is a solution to the [Four card feature section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [Workit landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/workit-landing-page-2fYnyle5lu). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+
 
 ## Table of contents
 
-- [Four card feature section](#four-card-feature-section)
+- [Workit landing page](#workit-landing-page)
   - [Table of contents](#table-of-contents)
   - [Overview](#overview)
     - [The challenge](#the-challenge)
@@ -20,8 +21,9 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
 
 Users should be able to:
 
-- View the optimal layout for the site depending on their device's screen size
-
+- View the optimal layout for the interface depending on their device's screen size
+- See hover and focus states for all interactive elements on the page
+- 
 ### Screenshots
 
 ![](./screenshot1.jpg)
@@ -29,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/tatasadi/four-card-feature-section](https://github.com/tatasadi/four-card-feature-section)
-- Live Site URL: [https://four-card-feature-section-ta.vercel.app](https://four-card-feature-section-ta.vercel.app)
+- Solution URL: [https://github.com/tatasadi/workit-landing-page](https://github.com/tatasadi/workit-landing-page)
+- Live Site URL: [https://workit-landing-page-ta.vercel.app](https://workit-landing-page-ta.vercel.app)
 
 ## My process
 
