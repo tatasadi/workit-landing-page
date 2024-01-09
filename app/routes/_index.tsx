@@ -60,10 +60,21 @@ export default function Index() {
           text="Always affordable pricing that scales with your business. Get top-quality product data analytics services without hidden costs or unexpected fees."
         />
       </div>
+      <div>
+        <div className="mx-12 mt-24">
+          <img src={imageFounder} alt="founder" />
+        </div>
+        <div>
+          <h2>Be the first to test</h2>
+          <p>
+            Hi, I'm Louis Graham, the founder of the company. Book a demo call with me to become a beta tester for our
+            app and kickstart your company. Apply for access below and I’ll be in touch to schedule a call.
+          </p>
+          <button className="btn-primary">Apply for access</button>
+        </div>
+      </div>
     </main>
   )
 }
-
-/* <img src={imageFounder} alt="logo" /> */
 
 //<img src={bgPattern3} alt="background pattern 3" />
