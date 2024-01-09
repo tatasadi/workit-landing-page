@@ -9,6 +9,7 @@ import imageHero from '../assets/images/image-hero.webp'
 import bgPattern1 from '../assets/images/bg-pattern-1.svg'
 import bgPattern2 from '../assets/images/bg-pattern-2.svg'
 import bgPattern3 from '../assets/images/bg-pattern-3.svg'
+import Card from '~/components/Card'
 
 export const meta: MetaFunction = () => {
   return [{ title: 'Workit Landing Page' }, { name: 'description', content: 'A Challenge from Frontend Mentor!' }]
@@ -40,6 +41,23 @@ export default function Index() {
           src={imageHero}
           alt="hero"
           className="absolute -bottom-[6rem] z-10 h-[12rem] md:-bottom-[9rem] md:h-[18rem] lg:-bottom-[13rem] lg:h-[26rem]"
+        />
+      </div>
+      <div className="-mt-8 flex flex-col items-center gap-10 bg-[url('/images/bg-cards.svg')] bg-cover bg-bottom bg-no-repeat p-4 pb-16 pt-[12rem] md:-mt-12 md:gap-12 md:px-24 md:pb-24 md:pt-[17rem] lg:-mt-16 lg:flex-row lg:pt-[23rem]">
+        <Card
+          number={1}
+          title="Actionable insights"
+          text="Optimize your products, improve customer satisfaction and stay ahead of the competition with our product data analytics."
+        />
+        <Card
+          number={2}
+          title="Data-driven decisions"
+          text="Make data-driven decisions with our product data analytics. Our AI-generated reports help you unlock insights hidden in your product data."
+        />
+        <Card
+          number={3}
+          title="Always affordable"
+          text="Always affordable pricing that scales with your business. Get top-quality product data analytics services without hidden costs or unexpected fees."
         />
       </div>
     </main>
