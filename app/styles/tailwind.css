@@ -8,7 +8,7 @@
   }
 
   .heading-lg {
-    @apply font-fraunces text-[5rem] font-semibold leading-[5rem];
+    @apply font-fraunces text-[3.125rem] font-semibold leading-[3.125rem] md:text-[3.75rem] md:leading-[3.75rem] lg:text-[5rem] lg:leading-[5rem];
   }
 
   .heading-md {
@@ -17,5 +17,13 @@
 
   .heading-sm {
     @apply font-fraunces text-[2rem] font-semibold leading-10;
+  }
+
+  .btn-primary {
+    @apply cursor-pointer border-2 bg-primary px-6 py-3 font-bold leading-8 -tracking-[0.01rem] text-dark transition duration-300 hover:border-primary hover:bg-dark hover:text-primary focus:border-primary focus:bg-dark focus:text-primary lg:px-8 lg:py-4 lg:text-lg lg:-tracking-[0.0125rem];
+  }
+
+  .btn-secondary {
+    @apply cursor-pointer border-b-2 border-primary font-bold leading-8 -tracking-[0.01rem] transition duration-300 hover:text-primary focus:text-primary lg:text-lg lg:-tracking-[0.0125rem];
   }
 }
