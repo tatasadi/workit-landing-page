@@ -60,21 +60,32 @@ export default function Index() {
           text="Always affordable pricing that scales with your business. Get top-quality product data analytics services without hidden costs or unexpected fees."
         />
       </div>
-      <div>
-        <div className="mx-12 mt-24">
-          <img src={imageFounder} alt="founder" />
+      <div className="relative flex w-full flex-col items-center p-4 md:p-10 lg:p-40">
+        <div className="relative mx-12 mt-24">
+          <img src={imageFounder} alt="founder" className="md:w-1/2 lg:w-2/5" />
         </div>
-        <div>
-          <h2>Be the first to test</h2>
-          <p>
+        <div className="relative z-10 -mt-20 flex flex-col items-center gap-4 bg-dark p-8 text-white md:-mt-36 md:w-2/3 md:items-start md:self-end md:p-14 lg:-mt-48 lg:gap-8">
+          <h2 className="font-fraunces text-[2rem] font-semibold leading-[3rem] lg:text-[3.5rem] lg:leading-[4rem]">
+            Be the first to test
+          </h2>
+          <p className="mb-2 text-center leading-7 md:text-left lg:text-lg lg:leading-8">
             Hi, I'm Louis Graham, the founder of the company. Book a demo call with me to become a beta tester for our
             app and kickstart your company. Apply for access below and I’ll be in touch to schedule a call.
           </p>
           <button className="btn-primary">Apply for access</button>
+          <img
+            src={bgPattern3}
+            alt="background pattern 3"
+            className="absolute -bottom-28 right-0 hidden md:block lg:-bottom-20 lg:right-[4.5rem]"
+          />
+        </div>
+        <img src={logoDark} alt="logo" className="mb-12 mt-16 w-28 md:mb-16 md:mt-20 lg:mb-20 lg:mt-32" />
+        <div className="mb-16 flex gap-6">
+          <img src={iconFacebook} alt="facebook" className="h-6 w-6" />
+          <img src={iconTwitter} alt="twitter" className="h-6 w-6" />
+          <img src={iconInstagram} alt="instagram" className="h-6 w-6" />
         </div>
       </div>
     </main>
   )
 }
-
-//<img src={bgPattern3} alt="background pattern 3" />
